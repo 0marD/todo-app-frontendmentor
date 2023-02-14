@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { ReactSortable } from 'react-sortablejs';
 import { ThemeProvider } from 'styled-components';
 import { useTheme } from './hooks/useTheme';
-import { Themes } from './themes/themes';
+import { Themes } from './themes/Themes';
 import { useFilters } from './hooks/useFilters';
 import { useTodo } from './hooks/useTodo';
 import { GlobalStyles } from './GlobalStyles';
