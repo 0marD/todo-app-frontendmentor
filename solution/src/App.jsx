@@ -28,7 +28,6 @@ function App() {
     handleDeleteTodo,
     todosLeft,
     totalTodos,
-    setTodos,
     handleClearCompletes,
   } = useTodo();
 
