@@ -12,12 +12,12 @@ import { Header } from './Components/Header/Header';
 import { TodoInput } from './Components/TodoInput/TodoInput';
 import { TodoList } from './Components/TodoList/TodoList';
 import { TodoItem } from './Components/TodoItem/TodoItem';
-import { TodoMsg } from './Components/todoMsg/todoMsg';
 import { TodoListFooter } from './Components/TodoListFooter/TodoListFooter';
 import { TodoFilters } from './Components/TodoFilters/TodoFilters';
 import { Filters, FiltersDesk } from './Components/Filters/Filters';
 import { Legend } from './Components/Legend/Legend';
 import { Footer } from './Components/Footer/Footer';
+import { TodoMsg } from './Components/TodoMsg/TodoMsg';
 
 function App() {
   const { theme, changeTheme } = useTheme();
